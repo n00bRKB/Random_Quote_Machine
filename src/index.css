@@ -1,0 +1,44 @@
+body {
+  background-color: coral;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#quote-box {
+  background-color: azure;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px;
+}
+#new-quote {
+  background-color: black;
+  color: white;
+  height: 28px;
+  width: 100px;
+  border: 0;
+  border-radius: 5px;
+}
+
+#new-quote:hover {
+  color: white;
+  background-color: coral;
+  transition: background 0.3s ease-out;
+}
+
+#tweet-quote {
+  color: black;
+  text-decoration: none;
+  margin-right: 15vw;
+  transition: background 0.3s ease-out;
+}
+#tweet-quote:hover {
+  color: coral;
+}
+
+.btn-text {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
